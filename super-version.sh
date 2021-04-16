@@ -1,2 +1,2 @@
-VERSION=7
+VERSION=8
 echo super version $VERSION

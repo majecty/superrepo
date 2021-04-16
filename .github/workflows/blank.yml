@@ -48,6 +48,7 @@ jobs:
         run: |
           git reset --hard
           git clean -fd
+          rm -rf git-subrepo
       - name: create pr
         uses: peter-evans/create-pull-request@v3
           
