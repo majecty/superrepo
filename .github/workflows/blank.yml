@@ -34,3 +34,12 @@ jobs:
           echo test, and deploy your project.
       - name: Run subrepo hello
         run: ./subrepo/hi.sh
+      - name: install git-subrepo
+        run: |
+          git clone https://github.com/ingydotnet/git-subrepo git-subrepo
+          source git-subrepo/.rc
+      - name: subrepo pull
+        run: git subrepo pull
+      - name: subrepo push
+        run: git subrepo push
+          
