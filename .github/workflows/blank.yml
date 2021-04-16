@@ -44,6 +44,10 @@ jobs:
         run: git subrepo pull subrepo
       - name: subrepo push
         run: git subrepo push subrepo
+      - name: clean subrepo
+        run: |
+          git reset --hard
+          git clean -fd
       - name: create pr
         uses: peter-evans/create-pull-request@v3
           
