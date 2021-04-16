@@ -44,4 +44,6 @@ jobs:
         run: git subrepo pull subrepo
       - name: subrepo push
         run: git subrepo push subrepo
+      - name: create pr
+        uses: peter-evans/create-pull-request@v3
           
