@@ -39,7 +39,7 @@ jobs:
           git clone https://github.com/ingydotnet/git-subrepo git-subrepo
           source git-subrepo/.rc
       - name: subrepo pull
-        run: git subrepo pull
+        run: git subrepo pull subrepo
       - name: subrepo push
-        run: git subrepo push
+        run: git subrepo push subrepo
           
