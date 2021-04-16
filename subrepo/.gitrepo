@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github.com:majecty/subrepo.git
 	branch = main
-	commit = 97d86ce4fe07a6b7f27df966b5f95aec371a1e36
-	parent = 8aebd8429be666ac5baa141462fc703f650c2e16
+	commit = c876fc1b669f62b3509b2cc96c661b8de23cd70f
+	parent = 223565433b2f42303ed598c475159d9ffe3cccd2
 	method = merge
 	cmdver = 0.4.3

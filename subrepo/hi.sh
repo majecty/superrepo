@@ -1,3 +1,3 @@
-VERSION=conflict-in-super
+VERSION=conflict-in-sub
 
 echo HI my version is $VERSION
